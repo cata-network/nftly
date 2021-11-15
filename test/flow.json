@@ -1,0 +1,67 @@
+{
+	"emulators": {
+		"default": {
+			"port": 3569,
+			"serviceAccount": "emulator-account"
+		}
+	},
+	"contracts": {
+		"FungibleToken": {
+			"source": "../contracts/FungibleToken.cdc",
+			"aliases": {
+				"testnet": "0x5e1e16ea71ac90c2"
+			}
+		},
+		"Nftly": "../contracts/Nftly.cdc",
+		"NftlyToken": "../contracts/NftlyToken.cdc",
+		"NonFungibleToken": {
+			"source": "../contracts/NonFungibleToken.cdc",
+			"aliases": {
+				"testnet": "0x5e1e16ea71ac90c2"
+			}
+		}
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "5e1e16ea71ac90c2",
+			"key": "d22dd9b566eb9015f84865e8e761b030ebf1e5f8b8811786f8c4349bf021e046"
+		},
+		"user_a7d0fcf643cb71c5": {
+			"address": "a7d0fcf643cb71c5",
+			"key": "d8e2d05916ef68cbd598b670818ca7e64ca4bc9435b126dd7b680cacfa67bd04"
+		},
+		"user_c4b18155093096da": {
+			"address": "c4b18155093096da",
+			"key": "a85c6526d7d9b252af70804af2435215faab2fd0a3c74d7cab6f12dcd9b28ecc"
+		},
+		"user_c67b0df37a145276": {
+			"address": "c67b0df37a145276",
+			"key": "1db79ba7aff3787cf76032b400ff16505289e48d7f3b5ce89279b83c601435bb"
+		},
+		"user_c82fef614497fd3e": {
+			"address": "c82fef614497fd3e",
+			"key": "8a54ae9f1e871d41d7688e102a66b0a84e66d342fc5d0da22607337c4f94958d"
+		},
+		"user_d09dcbe97fdfecf6": {
+			"address": "d09dcbe97fdfecf6",
+			"key": "8c5b9abd937b524a0a0791a8970b851b72f0b15c3ab98e25f903ac994c8ae97a"
+		},
+		"user_e4539ec96e4b235c": {
+			"address": "e4539ec96e4b235c",
+			"key": "a00f3ae8611e2d25e194fd28d04780cff5fc93b63e1da60c7ef9a045c915cdfd"
+		}
+	},
+	"deployments": {
+		"testnet": {
+			"emulator-account": [
+				"NftlyToken",
+				"Nftly"
+			]
+		}
+	}
+}

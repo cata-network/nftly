@@ -1,0 +1,32 @@
+{
+	"emulators": {
+		"default": {
+			"port": 3569,
+			"serviceAccount": "emulator-account"
+		}
+	},
+	"contracts": {
+		    "NftlyToken": "./NftlyToken.cdc",
+		    "FungibleToken":{"source": "./FungibleToken.cdc",
+							"aliases": {"testnet": "0x5e1e16ea71ac90c2"}},
+			 "Nftly": "./Nftly.cdc",
+			"NonFungibleToken": {"source":"./NonFungibleToken.cdc",
+								"aliases": {"testnet": "0x5e1e16ea71ac90c2"}}
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "0x5e1e16ea71ac90c2",
+			"key": "d22dd9b566eb9015f84865e8e761b030ebf1e5f8b8811786f8c4349bf021e046"
+		}
+	},
+	"deployments": {
+		"testnet": {
+      	"emulator-account": ["NftlyToken", "Nftly"]
+    	}
+	}
+}
