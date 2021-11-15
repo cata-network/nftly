@@ -1,3 +1,5 @@
+/** * SPDX-License-Identifier: MIT */
+
 import NonFungibleToken from "../contracts/NonFungibleToken.cdc"
 import Nftly from "../contracts/Nftly.cdc"
 

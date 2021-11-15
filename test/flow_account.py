@@ -5,7 +5,7 @@
 # Created Time: May 18  2017 18:55:41 PM CST
 # File Name:spider.py
 # Description:create flow account
-#  MIT-licensed
+# SPDX-License-Identifier: MIT
 #########################################################################
 import sys
 import re

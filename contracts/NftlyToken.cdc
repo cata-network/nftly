@@ -1,3 +1,5 @@
+/** * SPDX-License-Identifier: MIT */
+
 import FungibleToken from "./FungibleToken.cdc"
 
 pub contract NftlyToken: FungibleToken {
@@ -159,7 +161,6 @@ pub contract NftlyToken: FungibleToken {
 
     init() {
         // Set our named paths.
-        //FIXME: REMOVE SUFFIX BEFORE RELEASE
         self.VaultStoragePath = /storage/NftlyTokenVault002
         self.ReceiverPublicPath = /public/NftlyTokenReceiver002
         self.BalancePublicPath = /public/NftlyTokenBalance002

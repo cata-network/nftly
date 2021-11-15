@@ -1,5 +1,5 @@
 /**
-
+SPDX-License-Identifier: MIT
 ## The Flow Non-Fungible Token standard
 
 ## `NonFungibleToken` contract interface

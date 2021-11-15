@@ -5,7 +5,7 @@
 # Created Time: May 18  2017 18:55:41 PM CST
 # File Name:my_token.py
 # Description:封装flow cli, test nft
-# MIT - licensed
+# SPDX-License-Identifier: MIT
 #########################################################################
 import sys
 import re

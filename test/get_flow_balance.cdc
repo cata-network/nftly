@@ -1,3 +1,4 @@
+/** * SPDX-License-Identifier: MIT */
 
 // This script reads the balance field of an account's FlowToken Balance
 

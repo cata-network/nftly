@@ -1,4 +1,5 @@
 #!/bin/sh
+#SPDX-License-Identifier: MIT
 #step 1, install flow cli
 # brew install flow-cli #use mac
 

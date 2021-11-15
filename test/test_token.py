@@ -5,7 +5,7 @@
 # Created Time: May 18  2017 18:55:41 PM CST
 # File Name:test_token.py
 # Description:封装flow cli
-#  MIT-licensed
+# SPDX-License-Identifier: MIT
 #########################################################################
 import sys
 import re

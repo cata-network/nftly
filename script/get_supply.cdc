@@ -1,3 +1,5 @@
+/** * SPDX-License-Identifier: MIT */
+
 import NftlyToken from "../contracts/NftlyToken.cdc"
 
 // This script returns the total amount of NftlyToken currently in existence.

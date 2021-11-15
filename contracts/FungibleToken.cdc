@@ -1,6 +1,6 @@
 /**
-
-# The Flow Fungible Token standard
+SPDX-License-Identifier: MIT
+The Flow Fungible Token standard
 
 ## `FungibleToken` contract interface
 
