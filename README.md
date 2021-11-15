@@ -17,7 +17,8 @@ Nftly is for NFT.
 cadence script
 
 ## test
-test code
+test code, we mainly use flow cli to test contracts
+
 run 
 
 python3 test_token.py
