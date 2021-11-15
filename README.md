@@ -26,7 +26,7 @@ to test NftlyToken contract
 
 run 
 
-python3 nft_test 
+python3 nft_test.py
 
 to test Nftly contract
 
